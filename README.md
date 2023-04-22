@@ -1,6 +1,10 @@
-# ***Coffee Script V0.2***
+# ***Coffee Script V0.2.1***
 
-### Only 1 game for now (Bloxxy Tower)
+## Supported games:
+Bloxxy Tower
+(Soon to be more)
+
+## How to use script:
 
 Open your executor of choice and copy the contents of the code underneath file and execute
 
