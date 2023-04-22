@@ -1,4 +1,4 @@
--- Coffee V0.2 Main
+-- Coffee V0.2.1 Main
 
 local Coffee = Instance.new("ScreenGui")
 local Opening = Instance.new("ScreenGui")
@@ -115,7 +115,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.133858263, 0, 0.236842111, 0)
 TextLabel.Size = UDim2.new(0.740157485, 0, 0.526315808, 0)
 TextLabel.Font = Enum.Font.GothamBold
-TextLabel.Text = "Coffee V0.2 BETA"
+TextLabel.Text = "Coffee V0.2.1 BETA"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 22.000
@@ -197,8 +197,8 @@ Holder.Name = "Holder"
 Holder.Parent = Coffee
 Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Holder.BackgroundTransparency = 1.000
-Holder.Position = UDim2.new(-2.23219395e-05, 0, -0.000489957631, 0)
-Holder.Size = UDim2.new(0.204714641, 0, 0.0783132538, 0)
+Holder.Position = UDim2.new(-2.23188254e-05, 0, -0.000489966478, 0)
+Holder.Size = UDim2.new(0.204714641, 0, 0.329317272, 0)
 
 Script.Name = "Script"
 Script.Parent = Holder
@@ -254,7 +254,7 @@ TextLabel_5.BackgroundTransparency = 1.000
 TextLabel_5.Position = UDim2.new(0.0419303365, 0, 0.206896558, 0)
 TextLabel_5.Size = UDim2.new(0.926424026, 0, 0.655172408, 0)
 TextLabel_5.Font = Enum.Font.Gotham
-TextLabel_5.Text = "Coffee v0.2 BETA"
+TextLabel_5.Text = "Coffee v0.2.1 BETA"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 11.000
@@ -635,8 +635,8 @@ UICorner_26.Parent = Close
 Hide.Name = "Hide"
 Hide.Parent = Holder
 Hide.BackgroundColor3 = Color3.fromRGB(65, 36, 83)
-Hide.Position = UDim2.new(0.101230808, 0, 0.254865587, 0)
-Hide.Size = UDim2.new(0, 30, 0, 30)
+Hide.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
+Hide.Size = UDim2.new(0.115000002, 0, 0.115000002, 0)
 Hide.Font = Enum.Font.SourceSans
 Hide.Text = ""
 Hide.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -650,20 +650,20 @@ ImageLabel_9.Parent = Hide
 ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_9.BackgroundTransparency = 1.000
 ImageLabel_9.Position = UDim2.new(-0.0666666701, 0, -0.133333206, 0)
-ImageLabel_9.Size = UDim2.new(0, 32, 0, 34)
+ImageLabel_9.Size = UDim2.new(1.06666672, 0, 1.13333333, 0)
 ImageLabel_9.Image = "rbxassetid://13203066427"
 
 ImageLabel_10.Parent = Hide
 ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_10.BackgroundTransparency = 1.000
 ImageLabel_10.Position = UDim2.new(0.100000001, 0, 0.0333334617, 0)
-ImageLabel_10.Size = UDim2.new(0, 27, 0, 29)
+ImageLabel_10.Size = UDim2.new(0.900000036, 0, 0.966666639, 0)
 ImageLabel_10.ZIndex = 0
 ImageLabel_10.Image = "rbxassetid://13204491707"
 
 -- Scripts:
 
-local function FZYXOA_fake_script() -- Coffee.Main 
+local function AHJBP_fake_script() -- Coffee.Main 
 	local script = Instance.new('LocalScript', Coffee)
 
 	-- {0.304, 0},{-0.14, 0}
@@ -800,4 +800,4 @@ local function FZYXOA_fake_script() -- Coffee.Main
 		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[3].Button.ClickDetector)
 	end)
 end
-coroutine.wrap(FZYXOA_fake_script)() 
+coroutine.wrap(AHJBP_fake_script)()
