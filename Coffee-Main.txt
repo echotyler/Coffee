@@ -1,0 +1,725 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Coffee = Instance.new("ScreenGui")
+local Opening = Instance.new("ScreenGui")
+local Opening_2 = Instance.new("Frame")
+local Title = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Created = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TitleUnder = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Holder = Instance.new("Frame")
+local Script = Instance.new("ScreenGui")
+local ScriptWindow = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Top = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Sidebar = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local BloxxyTower = Instance.new("ImageButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local BloxxyTower_2 = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Freeze = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Freeze_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Unfreeze = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_10 = Instance.new("UICorner")
+local Teleports = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local End = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Laps = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local House = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local NoiseParty = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local WideTower = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TallTower = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local Checkster = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner_19 = Instance.new("UICorner")
+local Spawn = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local General = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local ActivateBloxxyTime = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+local ClickAllButtons = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local UICorner_24 = Instance.new("UICorner")
+local Help = Instance.new("ScreenGui")
+local Help_2 = Instance.new("Frame")
+local Top_2 = Instance.new("TextLabel")
+local Help_3 = Instance.new("TextLabel")
+local Help2 = Instance.new("TextLabel")
+
+--Properties:
+
+Coffee.Name = "Coffee"
+Coffee.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Coffee.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Opening.Name = "Opening"
+Opening.Parent = Coffee
+Opening.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Opening_2.Name = "Opening"
+Opening_2.Parent = Opening
+Opening_2.BackgroundColor3 = Color3.fromRGB(83, 41, 124)
+Opening_2.BorderSizePixel = 0
+Opening_2.Position = UDim2.new(0.351116627, 0, 0.327309221, 0)
+Opening_2.Size = UDim2.new(0.296526045, 0, 0.343373507, 0)
+
+Title.Name = "Title"
+Title.Parent = Opening_2
+Title.BackgroundColor3 = Color3.fromRGB(64, 32, 97)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 8.92326852e-08, 0)
+Title.Size = UDim2.new(0.531380773, 0, 0.222222224, 0)
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.133858263, 0, 0.236842111, 0)
+TextLabel.Size = UDim2.new(0.740157485, 0, 0.526315808, 0)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Coffee V0.1 BETA"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 22.000
+TextLabel.TextWrapped = true
+
+Created.Name = "Created"
+Created.Parent = Opening_2
+Created.BackgroundColor3 = Color3.fromRGB(64, 32, 97)
+Created.BorderSizePixel = 0
+Created.Position = UDim2.new(0, 0, 0.777777851, 0)
+Created.Size = UDim2.new(0.527196705, 0, 0.222222224, 0)
+
+TextLabel_2.Parent = Created
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0502092056, 0, 0.157894731, 0)
+TextLabel_2.Size = UDim2.new(0.887029231, 0, 0.684210539, 0)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Created By EchoTyler"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 22.000
+TextLabel_2.TextWrapped = true
+
+TitleUnder.Name = "TitleUnder"
+TitleUnder.Parent = Opening_2
+TitleUnder.BackgroundColor3 = Color3.fromRGB(64, 32, 97)
+TitleUnder.BorderSizePixel = 0
+TitleUnder.Position = UDim2.new(0.00418410078, 0, 0.222222313, 0)
+TitleUnder.Size = UDim2.new(0.527196646, 0, 0.134502918, 0)
+
+TextLabel_3.Parent = TitleUnder
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0446428582, 0, 0.154614672, 0)
+TextLabel_3.Size = UDim2.new(0.901785731, 0, 0.695652246, 0)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "Best script for exploiting random games."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextWrapped = true
+
+Frame.Parent = TitleUnder
+Frame.BackgroundColor3 = Color3.fromRGB(72, 36, 109)
+Frame.BorderColor3 = Color3.fromRGB(47, 23, 71)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(1.05853164, 0, -1.17391312, 0)
+Frame.Size = UDim2.new(0.767857134, 0, 6.47826147, 0)
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(68, 34, 102)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0478238203, 0, 0.128424138, 0)
+TextLabel_4.Size = UDim2.new(0.888153195, 0, 0.744418561, 0)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Update Logs: Added activating Bloxxy Time and activating all buttons (which does nothing, not my issue)"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel.Parent = TitleUnder
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.222222239, 0, 1.00000012, 0)
+ImageLabel.Size = UDim2.new(0.551726162, 0, 2.56217384, 0)
+ImageLabel.Image = "rbxassetid://13203066427"
+
+ImageLabel_2.Parent = Opening_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0, 0, -8.92326852e-08, 0)
+ImageLabel_2.Size = UDim2.new(1.00749993, 0, 1.00444448, 0)
+ImageLabel_2.Image = "rbxassetid://13204491707"
+ImageLabel_2.ImageTransparency = 0.490
+
+Holder.Name = "Holder"
+Holder.Parent = Coffee
+Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Holder.BackgroundTransparency = 1.000
+Holder.Position = UDim2.new(-2.23219395e-05, 0, -0.000489957631, 0)
+Holder.Size = UDim2.new(0.204714641, 0, 0.0783132538, 0)
+
+Script.Name = "Script"
+Script.Parent = Holder
+Script.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScriptWindow.Name = "ScriptWindow"
+ScriptWindow.Parent = Script
+ScriptWindow.BackgroundColor3 = Color3.fromRGB(70, 39, 89)
+ScriptWindow.Position = UDim2.new(0.00992554892, 0, 0.389558226, 0)
+ScriptWindow.Size = UDim2.new(0.307692319, 0, 0.592369497, 0)
+
+UICorner.Parent = ScriptWindow
+
+Top.Name = "Top"
+Top.Parent = ScriptWindow
+Top.BackgroundColor3 = Color3.fromRGB(100, 56, 127)
+Top.Position = UDim2.new(0.30399999, 0, -0.119999997, 0)
+Top.Size = UDim2.new(0.392059565, 0, 0.0983050838, 0)
+
+UICorner_2.Parent = Top
+
+TextLabel_5.Parent = Top
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0419303365, 0, 0.206896558, 0)
+TextLabel_5.Size = UDim2.new(0.926424026, 0, 0.655172408, 0)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "Coffee v0.2 BETA"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 11.000
+TextLabel_5.TextWrapped = true
+
+ImageLabel_3.Parent = Top
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Size = UDim2.new(1.00791121, 0, 1.03448272, 0)
+ImageLabel_3.Image = "rbxassetid://13204491707"
+ImageLabel_3.ImageTransparency = 0.610
+ImageLabel_3.ScaleType = Enum.ScaleType.Tile
+
+UICorner_3.Parent = ImageLabel_3
+
+Sidebar.Name = "Sidebar"
+Sidebar.Parent = ScriptWindow
+Sidebar.BackgroundColor3 = Color3.fromRGB(96, 54, 122)
+Sidebar.Position = UDim2.new(-0.00124069944, 0, -0.00057859259, 0)
+Sidebar.Size = UDim2.new(0.141439214, 0, 1, 0)
+
+UICorner_4.Parent = Sidebar
+
+BloxxyTower.Name = "BloxxyTower"
+BloxxyTower.Parent = Sidebar
+BloxxyTower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxxyTower.BorderSizePixel = 0
+BloxxyTower.Position = UDim2.new(0.129032016, 0, 0.0169491526, 0)
+BloxxyTower.Size = UDim2.new(0.776134849, 0, 0.0999523327, 0)
+BloxxyTower.Image = "rbxassetid://13200349932"
+
+ImageLabel_4.Parent = ScriptWindow
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0, 0, -1.03449416e-07, 0)
+ImageLabel_4.Size = UDim2.new(1.00806451, 0, 1.00338984, 0)
+ImageLabel_4.Image = "rbxassetid://13204491707"
+ImageLabel_4.ImageTransparency = 0.610
+ImageLabel_4.ScaleType = Enum.ScaleType.Tile
+
+UICorner_5.Parent = ImageLabel_4
+
+Close.Name = "Close"
+Close.Parent = Script
+Close.BackgroundColor3 = Color3.fromRGB(194, 75, 77)
+Close.Position = UDim2.new(0.276970208, 0, 0.317465872, 0)
+Close.Size = UDim2.new(0.0397022329, 0, 0.0642570257, 0)
+Close.ZIndex = 4
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_6.Parent = Close
+
+BloxxyTower_2.Name = "Bloxxy Tower"
+BloxxyTower_2.Parent = Script
+BloxxyTower_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScrollingFrame.Parent = BloxxyTower_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0700000003, 0, 0.419999987, 0)
+ScrollingFrame.Size = UDim2.new(0.237987563, 0, 0.541999936, 0)
+ScrollingFrame.ZIndex = 4
+
+Freeze.Name = "Freeze"
+Freeze.Parent = ScrollingFrame
+Freeze.BackgroundColor3 = Color3.fromRGB(85, 47, 108)
+Freeze.BorderSizePixel = 0
+Freeze.Position = UDim2.new(0.00999999978, 0, 0.209999993, 0)
+Freeze.Size = UDim2.new(0.5, 0, 0.0149999997, 0)
+
+TextLabel_6.Parent = Freeze
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "Freeze:"
+TextLabel_6.TextColor3 = Color3.fromRGB(147, 82, 188)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+Freeze_2.Name = "Freeze"
+Freeze_2.Parent = Freeze
+Freeze_2.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+Freeze_2.Position = UDim2.new(0, 0, 1.31894255, 0)
+Freeze_2.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+Freeze_2.Font = Enum.Font.Gotham
+Freeze_2.Text = "Freeze"
+Freeze_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Freeze_2.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = Freeze_2
+
+Unfreeze.Name = "Unfreeze"
+Unfreeze.Parent = Freeze
+Unfreeze.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+Unfreeze.Position = UDim2.new(-0.0102621568, 0, 2.55488634, 0)
+Unfreeze.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+Unfreeze.Font = Enum.Font.Gotham
+Unfreeze.Text = "Unfreeze"
+Unfreeze.TextColor3 = Color3.fromRGB(255, 255, 255)
+Unfreeze.TextSize = 14.000
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = Unfreeze
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = Freeze
+
+ImageLabel_5.Parent = Freeze
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.Position = UDim2.new(-3.9774136e-08, 0, 0, 0)
+ImageLabel_5.Size = UDim2.new(1.00094891, 0, 1.00401604, 0)
+ImageLabel_5.Image = "rbxassetid://13204491707"
+ImageLabel_5.ImageTransparency = 0.610
+ImageLabel_5.ScaleType = Enum.ScaleType.Tile
+
+UICorner_10.Parent = ImageLabel_5
+
+Teleports.Name = "Teleports"
+Teleports.Parent = ScrollingFrame
+Teleports.BackgroundColor3 = Color3.fromRGB(85, 47, 108)
+Teleports.BorderSizePixel = 0
+Teleports.Position = UDim2.new(0.00999999978, 0, 0.0399999991, 0)
+Teleports.Size = UDim2.new(0.5, 0, 0.0149999997, 0)
+
+TextLabel_7.Parent = Teleports
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "Teleports:"
+TextLabel_7.TextColor3 = Color3.fromRGB(147, 82, 188)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+End.Name = "End"
+End.Parent = Teleports
+End.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+End.BorderColor3 = Color3.fromRGB(74, 42, 95)
+End.Position = UDim2.new(0, 0, 1.27734423, 0)
+End.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+End.ZIndex = 3
+End.Font = Enum.Font.Gotham
+End.Text = "End"
+End.TextColor3 = Color3.fromRGB(255, 255, 255)
+End.TextSize = 12.000
+
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = End
+
+Laps.Name = "Laps"
+Laps.Parent = Teleports
+Laps.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+Laps.Position = UDim2.new(0, 0, 3.84668064, 0)
+Laps.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+Laps.Font = Enum.Font.Gotham
+Laps.Text = "Laps"
+Laps.TextColor3 = Color3.fromRGB(255, 255, 255)
+Laps.TextSize = 12.000
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Laps
+
+House.Name = "House"
+House.Parent = Teleports
+House.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+House.Position = UDim2.new(0, 0, 6.31825209, 0)
+House.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+House.Font = Enum.Font.Gotham
+House.Text = "House"
+House.TextColor3 = Color3.fromRGB(255, 255, 255)
+House.TextSize = 12.000
+
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = House
+
+NoiseParty.Name = "Noise Party"
+NoiseParty.Parent = Teleports
+NoiseParty.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+NoiseParty.Position = UDim2.new(0, 0, 5.05468845, 0)
+NoiseParty.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+NoiseParty.Font = Enum.Font.Gotham
+NoiseParty.Text = "Noise Party"
+NoiseParty.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoiseParty.TextSize = 12.000
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = NoiseParty
+
+WideTower.Name = "Wide Tower"
+WideTower.Parent = Teleports
+WideTower.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+WideTower.Position = UDim2.new(0, 0, 8.77613926, 0)
+WideTower.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+WideTower.Font = Enum.Font.Gotham
+WideTower.Text = "Wide Tower"
+WideTower.TextColor3 = Color3.fromRGB(255, 255, 255)
+WideTower.TextSize = 12.000
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = WideTower
+
+TallTower.Name = "Tall Tower"
+TallTower.Parent = Teleports
+TallTower.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+TallTower.Position = UDim2.new(0, 0, 2.51334691, 0)
+TallTower.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+TallTower.Font = Enum.Font.Gotham
+TallTower.Text = "Tall Tower"
+TallTower.TextColor3 = Color3.fromRGB(255, 255, 255)
+TallTower.TextSize = 12.000
+
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = TallTower
+
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = Teleports
+
+Checkster.Name = "Checkster"
+Checkster.Parent = Teleports
+Checkster.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+Checkster.Position = UDim2.new(0, 0, 7.54047394, 0)
+Checkster.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+Checkster.Font = Enum.Font.Gotham
+Checkster.Text = "Checkster"
+Checkster.TextColor3 = Color3.fromRGB(255, 255, 255)
+Checkster.TextSize = 12.000
+
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = Checkster
+
+ImageLabel_6.Parent = Teleports
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.Position = UDim2.new(-3.9774136e-08, 0, 0, 0)
+ImageLabel_6.Size = UDim2.new(1.00094891, 0, 1.00401604, 0)
+ImageLabel_6.Image = "rbxassetid://13204491707"
+ImageLabel_6.ImageTransparency = 0.610
+ImageLabel_6.ScaleType = Enum.ScaleType.Tile
+
+UICorner_19.Parent = ImageLabel_6
+
+Spawn.Name = "Spawn"
+Spawn.Parent = Teleports
+Spawn.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+Spawn.Position = UDim2.new(0, 0, 10, 0)
+Spawn.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+Spawn.Font = Enum.Font.Gotham
+Spawn.Text = "Spawn"
+Spawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spawn.TextSize = 12.000
+
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = Spawn
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0923743099, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0.610000014, 0, 0.0399999991, 0)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "Bloxxy Tower"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 18.000
+TextLabel_8.TextWrapped = true
+
+General.Name = "General"
+General.Parent = ScrollingFrame
+General.BackgroundColor3 = Color3.fromRGB(85, 47, 108)
+General.BorderSizePixel = 0
+General.Position = UDim2.new(0.00999999978, 0, 0.268999994, 0)
+General.Size = UDim2.new(0.5, 0, 0.0149999997, 0)
+
+TextLabel_9.Parent = General
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_9.Font = Enum.Font.Gotham
+TextLabel_9.Text = "General:"
+TextLabel_9.TextColor3 = Color3.fromRGB(147, 82, 188)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+ActivateBloxxyTime.Name = "Activate Bloxxy Time"
+ActivateBloxxyTime.Parent = General
+ActivateBloxxyTime.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+ActivateBloxxyTime.Position = UDim2.new(0, 0, 1.31894255, 0)
+ActivateBloxxyTime.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+ActivateBloxxyTime.Font = Enum.Font.Gotham
+ActivateBloxxyTime.Text = "Activate Bloxxy Time"
+ActivateBloxxyTime.TextColor3 = Color3.fromRGB(255, 255, 255)
+ActivateBloxxyTime.TextSize = 12.000
+ActivateBloxxyTime.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = ActivateBloxxyTime
+
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = General
+
+ClickAllButtons.Name = "Click All Buttons"
+ClickAllButtons.Parent = General
+ClickAllButtons.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+ClickAllButtons.Position = UDim2.new(0, 0, 2.5, 0)
+ClickAllButtons.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
+ClickAllButtons.Font = Enum.Font.Gotham
+ClickAllButtons.Text = "Click All Buttons"
+ClickAllButtons.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickAllButtons.TextSize = 12.000
+ClickAllButtons.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = ClickAllButtons
+
+ImageLabel_7.Parent = General
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.Position = UDim2.new(-3.9774136e-08, 0, 0, 0)
+ImageLabel_7.Size = UDim2.new(1.00094891, 0, 1.00401604, 0)
+ImageLabel_7.Image = "rbxassetid://13204491707"
+ImageLabel_7.ImageTransparency = 0.610
+ImageLabel_7.ScaleType = Enum.ScaleType.Tile
+
+UICorner_24.Parent = ImageLabel_7
+
+Help.Name = "Help"
+Help.Parent = BloxxyTower_2
+Help.Enabled = false
+Help.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Help_2.Name = "Help"
+Help_2.Parent = Help
+Help_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help_2.BackgroundTransparency = 1.000
+Help_2.Position = UDim2.new(0.104218364, 0, 0.0440677963, 0)
+Help_2.Size = UDim2.new(0.801488817, 0, 0.908474565, 0)
+
+Top_2.Name = "Top"
+Top_2.Parent = Help_2
+Top_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Top_2.BackgroundTransparency = 1.000
+Top_2.Position = UDim2.new(-0.03250774, 0, 0.416704118, 0)
+Top_2.Size = UDim2.new(0.268250793, 0, 0.0587064698, 0)
+Top_2.Font = Enum.Font.GothamBold
+Top_2.Text = "After executing script:"
+Top_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Top_2.TextSize = 14.000
+
+Help_3.Name = "Help"
+Help_3.Parent = Help_2
+Help_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help_3.BackgroundTransparency = 1.000
+Help_3.Position = UDim2.new(-0.046439629, 0, 0.508631647, 0)
+Help_3.Size = UDim2.new(0.296323538, 0, 0.326554745, 0)
+Help_3.Font = Enum.Font.Gotham
+Help_3.Text = "Click on a game on the sidebar and scroll then click the cheats you want."
+Help_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Help_3.TextSize = 22.000
+Help_3.TextWrapped = true
+
+Help2.Name = "Help2"
+Help2.Parent = Help_2
+Help2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help2.BackgroundTransparency = 1.000
+Help2.Position = UDim2.new(-0.046439629, 0, 0.826919794, 0)
+Help2.Size = UDim2.new(0.296323538, 0, 0.0311878119, 0)
+Help2.Font = Enum.Font.Gotham
+Help2.Text = "(Only supported game is Bloxxy Tower)"
+Help2.TextColor3 = Color3.fromRGB(34, 19, 43)
+Help2.TextScaled = true
+Help2.TextSize = 22.000
+Help2.TextWrapped = true
+
+-- Scripts:
+
+local function TTJMCT_fake_script() -- Coffee.Main 
+	local script = Instance.new('LocalScript', Coffee)
+
+	local Loaded = false
+	script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+	script.Parent.Opening.Enabled = true
+	script.Parent.Holder.Script.Enabled = false
+	script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
+	script.Parent.Holder.Script.Enabled = false
+	wait(4)
+	local Loaded = true
+	script.Parent.Opening.Enabled = false
+	script.Parent.Holder.Script.Enabled = true
+	script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = true
+	
+	script.Parent.Holder.Script.ScriptWindow.Sidebar.BloxxyTower.MouseButton1Click:Connect(function()
+		if script.Parent.Holder.Script["Bloxxy Tower"].Enabled == true then
+			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = true
+		else
+			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = true
+			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
+		end
+	end)
+	
+	script.Parent.Holder.Script.Close.MouseButton1Click:Connect(function()
+		script.Parent.Holder.Script.Enabled = false
+		script.Parent.Opening.Enabled = false
+		script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
+		script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+	end)
+	
+	--script.Parent.Script.Hide.MouseButton1Click:Connect(function()
+		--local Hidden = true
+		--if Hidden == true then
+			--local Hidden = false
+		--else
+			--local Hidden = true
+		--end
+		--if Hidden == false then
+			--local Hidden = true
+			--script.Parent.Script.Enabled = false
+			--script.Parent.Opening.Enabled = false
+			--script.Parent.Script["Bloxxy Tower"].Help.Enabled = false
+			--script.Parent.Script["Bloxxy Tower"].Enabled = false
+		--else
+			--local Hidden = false
+			--script.Parent.Script.Enabled = true
+			--script.Parent.Opening.Enabled = true
+			--script.Parent.Script["Bloxxy Tower"].Help.Enabled = true
+			--script.Parent.Script["Bloxxy Tower"].Enabled = true
+		--end
+	--end)
+	
+	-- Teleports
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports.End.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(283.386078, 375.858826, -459.517365, 0.402850479, 1.93748804e-08, -0.915265799, 6.40207034e-08, 1, 4.93470331e-08, 0.915265799, -7.84754377e-08, 0.402850479)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports["Tall Tower"].MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-238.564407, 397.999969, 179.562759, -0.331088275, 8.79049367e-08, 0.943599761, -3.09170503e-08, 1, -1.04007242e-07, -0.943599761, -6.36089013e-08, -0.331088275)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports["Wide Tower"].MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(342.727509, 231.999939, -52.3305817, -0.13330856, 2.20098659e-08, -0.991074562, 3.32127641e-08, 1, 1.7740664e-08, 0.991074562, -3.05513446e-08, -0.13330856)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports["Noise Party"].MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41.2612457, 2049.99927, 2326.66089, 0.999915719, 2.14972644e-08, 0.0129828304, -2.0859245e-08, 1, -4.927875e-08, -0.0129828304, 4.90037841e-08, 0.999915719)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports.House.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(161.835236, 8.2358923, -95.2460327, -0.469840556, 5.44514549e-08, 0.882751286, 7.30043865e-08, 1, -2.28275301e-08, -0.882751286, 5.37194182e-08, -0.469840556)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports.Laps.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-216.20285, 58.9999886, 8.99639893, -0.895709097, -2.09376942e-08, 0.444640517, -5.81799409e-09, 1, 3.53689416e-08, -0.444640517, 2.90933659e-08, -0.895709097)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports.Checkster.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-168.488998, 2.99999976, 182.833862, -0.997238517, -3.77684284e-09, 0.0742654353, -1.71456982e-09, 1, 2.78327033e-08, -0.0742654353, 2.7628511e-08, -0.997238517)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Teleports.Spawn.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 3.24999928, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+	
+	
+	-- Freezing
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Freeze.Freeze.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.Freeze.Unfreeze.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.General["Activate Bloxxy Time"].MouseButton1Click:Connect(function()
+		fireclickdetector(game:GetService("Workspace").Map.pizzatimetest.ClickDetector)
+	end)
+	
+	script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.General["Click All Buttons"].MouseButton1Click:Connect(function()
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[7].Button.ClickDetector)
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons.Button.Button.ClickDetector)
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[4].Button.ClickDetector)
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[2].Button.ClickDetector)
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[5].Button.ClickDetector)
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[6].Button.ClickDetector)
+		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[3].Button.ClickDetector)
+	end)
+end
+coroutine.wrap(TTJMCT_fake_script)()
