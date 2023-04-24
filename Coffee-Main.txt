@@ -1,89 +1,110 @@
--- Coffee V0.2.1 Main
-
+-- Coffee V0.3
 local Coffee = Instance.new("ScreenGui")
 local Opening = Instance.new("ScreenGui")
 local Opening_2 = Instance.new("Frame")
 local Title = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
 local Created = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
 local TitleUnder = Instance.new("Frame")
 local TextLabel_3 = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
 local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local Holder = Instance.new("Frame")
 local Script = Instance.new("ScreenGui")
 local ScriptWindow = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local Sidebar = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local BloxxyTower = Instance.new("ImageButton")
+local Frame_2 = Instance.new("Frame")
+local General = Instance.new("ImageButton")
 local ImageLabel_3 = Instance.new("ImageLabel")
-local UICorner_3 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local Top = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local ImageLabel_4 = Instance.new("ImageLabel")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local Top2 = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local ImageLabel_5 = Instance.new("ImageLabel")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local BloxxyTower_2 = Instance.new("ScreenGui")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local Freeze = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
 local Freeze_2 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local Unfreeze = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local ImageLabel_6 = Instance.new("ImageLabel")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local Teleports = Instance.new("Frame")
 local TextLabel_7 = Instance.new("TextLabel")
 local End = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local Laps = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local House = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local NoiseParty = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local WideTower = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local TallTower = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
-local Checkster = Instance.new("TextButton")
+local Laps = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
-local ImageLabel_7 = Instance.new("ImageLabel")
+local House = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
-local Spawn = Instance.new("TextButton")
+local NoiseParty = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
+local WideTower = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TallTower = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local Checkster = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local UICorner_26 = Instance.new("UICorner")
+local Spawn = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
-local General = Instance.new("Frame")
+local General_2 = Instance.new("Frame")
 local TextLabel_9 = Instance.new("TextLabel")
 local ActivateBloxxyTime = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local ClickAllButtons = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local ImageLabel_8 = Instance.new("ImageLabel")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local Help = Instance.new("ScreenGui")
 local Help_2 = Instance.new("Frame")
 local Top_2 = Instance.new("TextLabel")
 local Help_3 = Instance.new("TextLabel")
 local Help2 = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local Hide = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
+local General_3 = Instance.new("ScreenGui")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local TextLabel_10 = Instance.new("TextLabel")
+local General_4 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
 local ImageLabel_9 = Instance.new("ImageLabel")
+local UICorner_34 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextBox")
+local UICorner_35 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local WalkSpeed = Instance.new("TextBox")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local Hide = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
 local ImageLabel_10 = Instance.new("ImageLabel")
+local ImageLabel_11 = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -97,33 +118,35 @@ Opening.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Opening_2.Name = "Opening"
 Opening_2.Parent = Opening
-Opening_2.BackgroundColor3 = Color3.fromRGB(83, 41, 124)
+Opening_2.BackgroundColor3 = Color3.fromRGB(100, 57, 128)
 Opening_2.BorderSizePixel = 0
 Opening_2.Position = UDim2.new(0.351116627, 0, 0.327309221, 0)
 Opening_2.Size = UDim2.new(0.296526045, 0, 0.343373507, 0)
 
 Title.Name = "Title"
 Title.Parent = Opening_2
-Title.BackgroundColor3 = Color3.fromRGB(64, 32, 97)
+Title.BackgroundColor3 = Color3.fromRGB(65, 36, 83)
 Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0, 0, 8.92326852e-08, 0)
-Title.Size = UDim2.new(0.531380773, 0, 0.222222224, 0)
+Title.Size = UDim2.new(0.531380832, 0, 0.368421048, 0)
 
 TextLabel.Parent = Title
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.133858263, 0, 0.236842111, 0)
-TextLabel.Size = UDim2.new(0.740157485, 0, 0.526315808, 0)
+TextLabel.Position = UDim2.new(0.0233477596, 0, 0.105263121, 0)
+TextLabel.Size = UDim2.new(0.953284681, 0, 0.403508753, 0)
 TextLabel.Font = Enum.Font.GothamBold
-TextLabel.Text = "Coffee V0.2.1 BETA"
+TextLabel.Text = "Coffee V0.3 BETA"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 22.000
 TextLabel.TextWrapped = true
 
+UICorner.Parent = Title
+
 Created.Name = "Created"
 Created.Parent = Opening_2
-Created.BackgroundColor3 = Color3.fromRGB(64, 32, 97)
+Created.BackgroundColor3 = Color3.fromRGB(65, 36, 83)
 Created.BorderSizePixel = 0
 Created.Position = UDim2.new(0, 0, 0.777777851, 0)
 Created.Size = UDim2.new(0.527196705, 0, 0.222222224, 0)
@@ -140,9 +163,12 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 22.000
 TextLabel_2.TextWrapped = true
 
+UICorner_2.Parent = Created
+
 TitleUnder.Name = "TitleUnder"
 TitleUnder.Parent = Opening_2
-TitleUnder.BackgroundColor3 = Color3.fromRGB(64, 32, 97)
+TitleUnder.BackgroundColor3 = Color3.fromRGB(65, 36, 83)
+TitleUnder.BackgroundTransparency = 1.000
 TitleUnder.BorderSizePixel = 0
 TitleUnder.Position = UDim2.new(0.00418410078, 0, 0.222222313, 0)
 TitleUnder.Size = UDim2.new(0.527196646, 0, 0.134502918, 0)
@@ -159,7 +185,7 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextWrapped = true
 
 Frame.Parent = TitleUnder
-Frame.BackgroundColor3 = Color3.fromRGB(72, 36, 109)
+Frame.BackgroundColor3 = Color3.fromRGB(80, 44, 102)
 Frame.BorderColor3 = Color3.fromRGB(47, 23, 71)
 Frame.BorderSizePixel = 2
 Frame.Position = UDim2.new(1.05853164, 0, -1.17391312, 0)
@@ -178,12 +204,16 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
+UICorner_3.Parent = Frame
+
 ImageLabel.Parent = TitleUnder
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.222222239, 0, 1.00000012, 0)
 ImageLabel.Size = UDim2.new(0.551726162, 0, 2.56217384, 0)
 ImageLabel.Image = "rbxassetid://13203066427"
+
+UICorner_4.Parent = TitleUnder
 
 ImageLabel_2.Parent = Opening_2
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -192,6 +222,10 @@ ImageLabel_2.Position = UDim2.new(0, 0, -8.92326852e-08, 0)
 ImageLabel_2.Size = UDim2.new(1.00749993, 0, 1.00444448, 0)
 ImageLabel_2.Image = "rbxassetid://13204491707"
 ImageLabel_2.ImageTransparency = 0.490
+
+UICorner_5.Parent = ImageLabel_2
+
+UICorner_6.Parent = Opening_2
 
 Holder.Name = "Holder"
 Holder.Parent = Coffee
@@ -211,7 +245,7 @@ ScriptWindow.BackgroundColor3 = Color3.fromRGB(70, 39, 89)
 ScriptWindow.Position = UDim2.new(0.00992554892, 0, 0.389558226, 0)
 ScriptWindow.Size = UDim2.new(0.307692319, 0, 0.592369497, 0)
 
-UICorner.Parent = ScriptWindow
+UICorner_7.Parent = ScriptWindow
 
 Sidebar.Name = "Sidebar"
 Sidebar.Parent = ScriptWindow
@@ -219,15 +253,29 @@ Sidebar.BackgroundColor3 = Color3.fromRGB(96, 54, 122)
 Sidebar.Position = UDim2.new(-0.00124069944, 0, -0.00057859259, 0)
 Sidebar.Size = UDim2.new(0.141439214, 0, 1, 0)
 
-UICorner_2.Parent = Sidebar
+UICorner_8.Parent = Sidebar
 
 BloxxyTower.Name = "BloxxyTower"
 BloxxyTower.Parent = Sidebar
 BloxxyTower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxxyTower.BorderSizePixel = 0
-BloxxyTower.Position = UDim2.new(0.129032016, 0, 0.0169491526, 0)
+BloxxyTower.Position = UDim2.new(0.128999993, 0, 0.159999996, 0)
 BloxxyTower.Size = UDim2.new(0.776134849, 0, 0.0999523327, 0)
 BloxxyTower.Image = "rbxassetid://13200349932"
+
+Frame_2.Parent = Sidebar
+Frame_2.BackgroundColor3 = Color3.fromRGB(65, 36, 83)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.171000004, 0, 0.137999997, 0)
+Frame_2.Size = UDim2.new(0.713999987, 0, 0.00499999989, 0)
+
+General.Name = "General"
+General.Parent = Sidebar
+General.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+General.BackgroundTransparency = 1.000
+General.Position = UDim2.new(0.128999993, 0, 0.0199999996, 0)
+General.Size = UDim2.new(0.776000023, 0, 0.100000001, 0)
+General.Image = "rbxassetid://13203066427"
 
 ImageLabel_3.Parent = ScriptWindow
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -238,7 +286,7 @@ ImageLabel_3.Image = "rbxassetid://13204491707"
 ImageLabel_3.ImageTransparency = 0.610
 ImageLabel_3.ScaleType = Enum.ScaleType.Tile
 
-UICorner_3.Parent = ImageLabel_3
+UICorner_9.Parent = ImageLabel_3
 
 Top.Name = "Top"
 Top.Parent = ScriptWindow
@@ -246,7 +294,7 @@ Top.BackgroundColor3 = Color3.fromRGB(77, 43, 98)
 Top.Position = UDim2.new(0.30399999, 0, -0.140000001, 0)
 Top.Size = UDim2.new(0.392059565, 0, 0.0983050838, 0)
 
-UICorner_4.Parent = Top
+UICorner_10.Parent = Top
 
 TextLabel_5.Parent = Top
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -254,7 +302,7 @@ TextLabel_5.BackgroundTransparency = 1.000
 TextLabel_5.Position = UDim2.new(0.0419303365, 0, 0.206896558, 0)
 TextLabel_5.Size = UDim2.new(0.926424026, 0, 0.655172408, 0)
 TextLabel_5.Font = Enum.Font.Gotham
-TextLabel_5.Text = "Coffee v0.2.1 BETA"
+TextLabel_5.Text = "Coffee v0.3 BETA"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 11.000
@@ -268,7 +316,7 @@ ImageLabel_4.Image = "rbxassetid://13204491707"
 ImageLabel_4.ImageTransparency = 0.330
 ImageLabel_4.ScaleType = Enum.ScaleType.Tile
 
-UICorner_5.Parent = ImageLabel_4
+UICorner_11.Parent = ImageLabel_4
 
 Top2.Name = "Top2"
 Top2.Parent = Top
@@ -277,7 +325,7 @@ Top2.Position = UDim2.new(-0.786189735, 0, -0.120003007, 0)
 Top2.Size = UDim2.new(2.58272386, 0, 1.27071965, 0)
 Top2.ZIndex = 0
 
-UICorner_6.Parent = Top2
+UICorner_12.Parent = Top2
 
 ImageLabel_5.Parent = Top2
 ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -287,10 +335,11 @@ ImageLabel_5.Image = "rbxassetid://13204491707"
 ImageLabel_5.ImageTransparency = 0.730
 ImageLabel_5.ScaleType = Enum.ScaleType.Tile
 
-UICorner_7.Parent = ImageLabel_5
+UICorner_13.Parent = ImageLabel_5
 
 BloxxyTower_2.Name = "Bloxxy Tower"
 BloxxyTower_2.Parent = Script
+BloxxyTower_2.Enabled = false
 BloxxyTower_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ScrollingFrame.Parent = BloxxyTower_2
@@ -330,8 +379,8 @@ Freeze_2.Text = "Freeze"
 Freeze_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Freeze_2.TextSize = 14.000
 
-UICorner_8.CornerRadius = UDim.new(0, 3)
-UICorner_8.Parent = Freeze_2
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Freeze_2
 
 Unfreeze.Name = "Unfreeze"
 Unfreeze.Parent = Freeze
@@ -343,11 +392,11 @@ Unfreeze.Text = "Unfreeze"
 Unfreeze.TextColor3 = Color3.fromRGB(255, 255, 255)
 Unfreeze.TextSize = 14.000
 
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = Unfreeze
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = Unfreeze
 
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = Freeze
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = Freeze
 
 ImageLabel_6.Parent = Freeze
 ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -358,7 +407,7 @@ ImageLabel_6.Image = "rbxassetid://13204491707"
 ImageLabel_6.ImageTransparency = 0.610
 ImageLabel_6.ScaleType = Enum.ScaleType.Tile
 
-UICorner_11.Parent = ImageLabel_6
+UICorner_17.Parent = ImageLabel_6
 
 Teleports.Name = "Teleports"
 Teleports.Parent = ScrollingFrame
@@ -389,8 +438,8 @@ End.Text = "End"
 End.TextColor3 = Color3.fromRGB(255, 255, 255)
 End.TextSize = 12.000
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = End
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = End
 
 Laps.Name = "Laps"
 Laps.Parent = Teleports
@@ -402,8 +451,8 @@ Laps.Text = "Laps"
 Laps.TextColor3 = Color3.fromRGB(255, 255, 255)
 Laps.TextSize = 12.000
 
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = Laps
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = Laps
 
 House.Name = "House"
 House.Parent = Teleports
@@ -415,8 +464,8 @@ House.Text = "House"
 House.TextColor3 = Color3.fromRGB(255, 255, 255)
 House.TextSize = 12.000
 
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = House
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = House
 
 NoiseParty.Name = "Noise Party"
 NoiseParty.Parent = Teleports
@@ -428,8 +477,8 @@ NoiseParty.Text = "Noise Party"
 NoiseParty.TextColor3 = Color3.fromRGB(255, 255, 255)
 NoiseParty.TextSize = 12.000
 
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = NoiseParty
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = NoiseParty
 
 WideTower.Name = "Wide Tower"
 WideTower.Parent = Teleports
@@ -441,8 +490,8 @@ WideTower.Text = "Wide Tower"
 WideTower.TextColor3 = Color3.fromRGB(255, 255, 255)
 WideTower.TextSize = 12.000
 
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = WideTower
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = WideTower
 
 TallTower.Name = "Tall Tower"
 TallTower.Parent = Teleports
@@ -454,11 +503,11 @@ TallTower.Text = "Tall Tower"
 TallTower.TextColor3 = Color3.fromRGB(255, 255, 255)
 TallTower.TextSize = 12.000
 
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = TallTower
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = TallTower
 
-UICorner_18.CornerRadius = UDim.new(0, 3)
-UICorner_18.Parent = Teleports
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = Teleports
 
 Checkster.Name = "Checkster"
 Checkster.Parent = Teleports
@@ -470,8 +519,8 @@ Checkster.Text = "Checkster"
 Checkster.TextColor3 = Color3.fromRGB(255, 255, 255)
 Checkster.TextSize = 12.000
 
-UICorner_19.CornerRadius = UDim.new(0, 3)
-UICorner_19.Parent = Checkster
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = Checkster
 
 ImageLabel_7.Parent = Teleports
 ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -482,7 +531,7 @@ ImageLabel_7.Image = "rbxassetid://13204491707"
 ImageLabel_7.ImageTransparency = 0.610
 ImageLabel_7.ScaleType = Enum.ScaleType.Tile
 
-UICorner_20.Parent = ImageLabel_7
+UICorner_26.Parent = ImageLabel_7
 
 Spawn.Name = "Spawn"
 Spawn.Parent = Teleports
@@ -494,8 +543,8 @@ Spawn.Text = "Spawn"
 Spawn.TextColor3 = Color3.fromRGB(255, 255, 255)
 Spawn.TextSize = 12.000
 
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = Spawn
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = Spawn
 
 TextLabel_8.Parent = ScrollingFrame
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -509,14 +558,14 @@ TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 18.000
 TextLabel_8.TextWrapped = true
 
-General.Name = "General"
-General.Parent = ScrollingFrame
-General.BackgroundColor3 = Color3.fromRGB(85, 47, 108)
-General.BorderSizePixel = 0
-General.Position = UDim2.new(0.00999999978, 0, 0.268999994, 0)
-General.Size = UDim2.new(0.5, 0, 0.0149999997, 0)
+General_2.Name = "General"
+General_2.Parent = ScrollingFrame
+General_2.BackgroundColor3 = Color3.fromRGB(85, 47, 108)
+General_2.BorderSizePixel = 0
+General_2.Position = UDim2.new(0.00999999978, 0, 0.268999994, 0)
+General_2.Size = UDim2.new(0.5, 0, 0.0149999997, 0)
 
-TextLabel_9.Parent = General
+TextLabel_9.Parent = General_2
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_9.BackgroundTransparency = 1.000
 TextLabel_9.Size = UDim2.new(1, 0, 1, 0)
@@ -528,7 +577,7 @@ TextLabel_9.TextSize = 14.000
 TextLabel_9.TextWrapped = true
 
 ActivateBloxxyTime.Name = "Activate Bloxxy Time"
-ActivateBloxxyTime.Parent = General
+ActivateBloxxyTime.Parent = General_2
 ActivateBloxxyTime.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
 ActivateBloxxyTime.Position = UDim2.new(0, 0, 1.31894255, 0)
 ActivateBloxxyTime.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
@@ -538,14 +587,14 @@ ActivateBloxxyTime.TextColor3 = Color3.fromRGB(255, 255, 255)
 ActivateBloxxyTime.TextSize = 12.000
 ActivateBloxxyTime.TextWrapped = true
 
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = ActivateBloxxyTime
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = ActivateBloxxyTime
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = General
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = General_2
 
 ClickAllButtons.Name = "Click All Buttons"
-ClickAllButtons.Parent = General
+ClickAllButtons.Parent = General_2
 ClickAllButtons.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
 ClickAllButtons.Position = UDim2.new(0, 0, 2.5, 0)
 ClickAllButtons.Size = UDim2.new(0.949999988, 0, 0.944000006, 0)
@@ -555,10 +604,10 @@ ClickAllButtons.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickAllButtons.TextSize = 12.000
 ClickAllButtons.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = ClickAllButtons
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = ClickAllButtons
 
-ImageLabel_8.Parent = General
+ImageLabel_8.Parent = General_2
 ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_8.BackgroundTransparency = 1.000
 ImageLabel_8.Position = UDim2.new(-3.9774136e-08, 0, 0, 0)
@@ -567,7 +616,7 @@ ImageLabel_8.Image = "rbxassetid://13204491707"
 ImageLabel_8.ImageTransparency = 0.610
 ImageLabel_8.ScaleType = Enum.ScaleType.Tile
 
-UICorner_25.Parent = ImageLabel_8
+UICorner_31.Parent = ImageLabel_8
 
 Help.Name = "Help"
 Help.Parent = BloxxyTower_2
@@ -630,7 +679,114 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-UICorner_26.Parent = Close
+UICorner_32.Parent = Close
+
+General_3.Name = "General"
+General_3.Parent = Script
+General_3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScrollingFrame_2.Parent = General_3
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Position = UDim2.new(0.0700000003, 0, 0.419999987, 0)
+ScrollingFrame_2.Size = UDim2.new(0.237987563, 0, 0.541999936, 0)
+ScrollingFrame_2.ZIndex = 4
+
+TextLabel_10.Parent = ScrollingFrame_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0923743099, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0.699999988, 0, 0.0399999991, 0)
+TextLabel_10.Font = Enum.Font.Gotham
+TextLabel_10.Text = "General Cheats"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 18.000
+TextLabel_10.TextWrapped = true
+
+General_4.Name = "General"
+General_4.Parent = ScrollingFrame_2
+General_4.BackgroundColor3 = Color3.fromRGB(85, 47, 108)
+General_4.BorderSizePixel = 0
+General_4.Position = UDim2.new(0.00999999978, 0, 0.0500000007, 0)
+General_4.Size = UDim2.new(0.5, 0, 0.0149999997, 0)
+
+TextLabel_11.Parent = General_4
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_11.Font = Enum.Font.Gotham
+TextLabel_11.Text = "General:"
+TextLabel_11.TextColor3 = Color3.fromRGB(147, 82, 188)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = General_4
+
+ImageLabel_9.Parent = General_4
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.Position = UDim2.new(-3.9774136e-08, 0, 0, 0)
+ImageLabel_9.Size = UDim2.new(1.00094891, 0, 1.00401604, 0)
+ImageLabel_9.Image = "rbxassetid://13204491707"
+ImageLabel_9.ImageTransparency = 0.610
+ImageLabel_9.ScaleType = Enum.ScaleType.Tile
+
+UICorner_34.Parent = ImageLabel_9
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = General_4
+JumpPower.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+JumpPower.Position = UDim2.new(-7.96470943e-08, 0, 1.33868814, 0)
+JumpPower.Size = UDim2.new(0.960434377, 0, 1.00401604, 0)
+JumpPower.Font = Enum.Font.Gotham
+JumpPower.Text = "50"
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.TextSize = 14.000
+
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = JumpPower
+
+TextLabel_12.Parent = JumpPower
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(1.05434775, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0.739130437, 0, 1.13333344, 0)
+TextLabel_12.Font = Enum.Font.Gotham
+TextLabel_12.Text = "Jump Power"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = General_4
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(53, 30, 68)
+WalkSpeed.Position = UDim2.new(0, 0, 2.70000005, 0)
+WalkSpeed.Size = UDim2.new(0.960434377, 0, 1.00401604, 0)
+WalkSpeed.Font = Enum.Font.Gotham
+WalkSpeed.Text = "16"
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.TextSize = 14.000
+
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = WalkSpeed
+
+TextLabel_13.Parent = WalkSpeed
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(1.05434775, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0.739130437, 0, 1.13333344, 0)
+TextLabel_13.Font = Enum.Font.Gotham
+TextLabel_13.Text = "Walk Speed"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
 
 Hide.Name = "Hide"
 Hide.Parent = Holder
@@ -643,27 +799,27 @@ Hide.TextColor3 = Color3.fromRGB(0, 0, 0)
 Hide.TextSize = 21.000
 Hide.TextWrapped = true
 
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = Hide
-
-ImageLabel_9.Parent = Hide
-ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_9.BackgroundTransparency = 1.000
-ImageLabel_9.Position = UDim2.new(-0.0666666701, 0, -0.133333206, 0)
-ImageLabel_9.Size = UDim2.new(1.06666672, 0, 1.13333333, 0)
-ImageLabel_9.Image = "rbxassetid://13203066427"
+UICorner_37.CornerRadius = UDim.new(0, 3)
+UICorner_37.Parent = Hide
 
 ImageLabel_10.Parent = Hide
 ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_10.BackgroundTransparency = 1.000
-ImageLabel_10.Position = UDim2.new(0.100000001, 0, 0.0333334617, 0)
-ImageLabel_10.Size = UDim2.new(0.900000036, 0, 0.966666639, 0)
-ImageLabel_10.ZIndex = 0
-ImageLabel_10.Image = "rbxassetid://13204491707"
+ImageLabel_10.Position = UDim2.new(-0.0666666701, 0, -0.133333206, 0)
+ImageLabel_10.Size = UDim2.new(1.06666672, 0, 1.13333333, 0)
+ImageLabel_10.Image = "rbxassetid://13203066427"
+
+ImageLabel_11.Parent = Hide
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.Position = UDim2.new(0.100000001, 0, 0.0333334617, 0)
+ImageLabel_11.Size = UDim2.new(0.900000036, 0, 0.966666639, 0)
+ImageLabel_11.ZIndex = 0
+ImageLabel_11.Image = "rbxassetid://13204491707"
 
 -- Scripts:
 
-local function AHJBP_fake_script() -- Coffee.Main 
+local function IKZAEV_fake_script() -- Coffee.Main 
 	local script = Instance.new('LocalScript', Coffee)
 
 	-- {0.304, 0},{-0.14, 0}
@@ -675,6 +831,7 @@ local function AHJBP_fake_script() -- Coffee.Main
 	
 	local Loaded = false
 	script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+	script.Parent.Holder.Script.General.Enabled = false
 	script.Parent.Opening.Enabled = true
 	script.Parent.Holder.Script.Enabled = false
 	script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
@@ -688,9 +845,23 @@ local function AHJBP_fake_script() -- Coffee.Main
 	script.Parent.Holder.Script.ScriptWindow.Sidebar.BloxxyTower.MouseButton1Click:Connect(function()
 		if script.Parent.Holder.Script["Bloxxy Tower"].Enabled == true then
 			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+			script.Parent.Holder.Script.General.Enabled = false
 			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = true
 		else
 			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = true
+			script.Parent.Holder.Script.General.Enabled = false
+			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
+		end
+	end)
+	
+	script.Parent.Holder.Script.ScriptWindow.Sidebar.General.MouseButton1Click:Connect(function()
+		if script.Parent.Holder.Script.General.Enabled == true then
+			script.Parent.Holder.Script.General.Enabled = false
+			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = true
+		else
+			script.Parent.Holder.Script.General.Enabled = true
+			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
 			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
 		end
 	end)
@@ -700,6 +871,7 @@ local function AHJBP_fake_script() -- Coffee.Main
 		script.Parent.Opening.Enabled = false
 		script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
 		script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+		script.Parent.Holder.Script.General.Enabled = false
 	end)
 	
 	local Hide = false
@@ -709,6 +881,7 @@ local function AHJBP_fake_script() -- Coffee.Main
 			Hide = false
 			script.Parent.Holder.Script.Enabled = true
 			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+			script.Parent.Holder.Script.General.Enabled = false
 			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = true
 		else
 			Hide = true
@@ -716,6 +889,7 @@ local function AHJBP_fake_script() -- Coffee.Main
 			script.Parent.Opening.Enabled = false
 			script.Parent.Holder.Script["Bloxxy Tower"].Help.Enabled = false
 			script.Parent.Holder.Script["Bloxxy Tower"].Enabled = false
+			script.Parent.Holder.Script.General.Enabled = false
 		end
 	end)
 	
@@ -799,5 +973,29 @@ local function AHJBP_fake_script() -- Coffee.Main
 		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[6].Button.ClickDetector)
 		fireclickdetector(game:GetService("Workspace").Map.Eggs.Buttons:GetChildren()[3].Button.ClickDetector)
 	end)
+	
+	--script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.General["Jump Power"].Changed:Connect(function()
+		--local player = game.Players.LocalPlayer
+		--local char = player.Character
+		--local humanoid = char:WaitForChild("Humanoid")
+		--humanoid.JumpPower = script.Parent.Holder.Script["Bloxxy Tower"].ScrollingFrame.General["Jump Power"].Text
+	--end)
 end
-coroutine.wrap(AHJBP_fake_script)()
+coroutine.wrap(IKZAEV_fake_script)()
+local function EKHHTKF_fake_script() -- Coffee.Main 2 
+	local script = Instance.new('LocalScript', Coffee)
+
+	local Script = script.Parent.Holder.Script
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	local humanoid = char:WaitForChild("Humanoid")
+	
+	Script.General.ScrollingFrame.General.JumpPower.InputEnded:Connect(function()
+		humanoid.JumpPower = Script.General.ScrollingFrame.General.JumpPower.Text
+	end)
+	
+	Script.General.ScrollingFrame.General.WalkSpeed.InputEnded:Connect(function()
+		humanoid.WalkSpeed = Script.General.ScrollingFrame.General.WalkSpeed.Text
+	end)
+end
+coroutine.wrap(EKHHTKF_fake_script)()
