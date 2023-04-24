@@ -1,4 +1,4 @@
-# ***Coffee Script V0.2.1***
+# ***Coffee Script V0.3***
 
 ## Supported games:
 Bloxxy Tower
